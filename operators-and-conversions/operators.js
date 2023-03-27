@@ -12,7 +12,7 @@ console.log(num * num2);
 const a = 10;
 const b = "10";
 
-console.log("loosely equal", a == b);   //value
+console.log("loosely equal", a == b);   // value
 console.log("loosely not equal", a != b);   // data type.
 console.log("strictly equal", a === b);     // value and data type
 console.log("strictly not equal", a !== b); // data type.
