@@ -1,10 +1,20 @@
-let partyPeople = ()=>{
-    console.log('I am showering');
-}
-let partyDriver = ()=> {
-    console.log('You will find us when you are ready');
-};
+// let partyPeople = ()=>{
+//     console.log('I am showering');
+// }
+// let partyDriver = ()=> {
+//     console.log('You will find us when you are ready');
+// };
 
-partyDriver();
+// partyDriver();
+// setTimeout(partyPeople, 3000);
+// setInterval(partyDriver, 2000);
+
+function partyPeople() {
+    console.log('Iam Showering');
+}
+function partyDriver() {
+    console.log('You will find us when you are done.');
+}
+
 setTimeout(partyPeople, 3000);
 setInterval(partyDriver, 2000);
